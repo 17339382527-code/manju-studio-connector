@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 漫剧工坊</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; padding: 48px 20px 80px;
+    font: 16px/1.75 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937; background: #ffffff;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; line-height: 1.3; margin: 0 0 24px; }
+  h2 { font-size: 20px; margin: 36px 0 12px; }
+  p, li { color: #374151; }
+  ul { padding-left: 22px; }
+  a { color: #ea580c; }
+  hr { border: 0; border-top: 1px solid #e5e7eb; margin: 32px 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0b1220; color: #e5e7eb; }
+    p, li { color: #cbd5e1; }
+    a { color: #fb923c; }
+    hr { border-color: #1f2937; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>隐私政策 / Privacy Policy</h1>
+<p>最后更新：2026-11-18</p>
+<p>漫剧工坊（Manju Studio）是一个在你的本机运行的连接器，用于生成漫剧分镜图、镜头视频并拼接成片。</p>
+<h2>我们处理哪些数据</h2>
+<ul>
+<li>你在会话中输入的提示词、镜号、参考图路径</li>
+<li>生成的图片与视频文件</li>
+<li>本机用量日志（usage.log），记录模型、数量、耗时</li>
+</ul>
+<h2>数据流向</h2>
+<ul>
+<li>提示词与参考图会发送至<strong>你自行配置的第三方模型接口</strong>（默认火山方舟 Ark；如启用备选，另含智谱开放平台），仅用于生成本次请求的内容。</li>
+<li>API 密钥保存在本机 <code>.secrets/</code> 目录，<strong>不会上传、不会回传</strong>。</li>
+<li>本项目<strong>不收集遥测</strong>，不采集账号信息、设备标识或使用统计。</li>
+</ul>
+<h2>数据存储与删除</h2>
+<p>所有产物与日志均保存在你的本机目录（默认 <code>D:\aimanju</code>）。删除对应文件即完成删除；本项目不保留云端副本。</p>
+<h2>第三方</h2>
+<p>生成服务由你选择的模型提供商处理，其数据处理行为受各自隐私政策约束。请在使用前阅读对应提供商的条款。</p>
+<h2>未成年人</h2>
+<p>本连接器不面向未成年人，也不主动收集任何年龄信息。</p>
+<h2>联系</h2>
+<p>如需咨询或删除数据协助，请通过本仓库的 Issues 页面联系：</p>
+<p><a href="https://github.com/17339382527-code/manju-studio-connector/issues">https://github.com/17339382527-code/manju-studio-connector/issues</a></p>
+
+</main>
+</body>
+</html>
