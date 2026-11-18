@@ -34,5 +34,4 @@ API Key 二选一：
 
 ## 支持
 
-- 邮箱：`<REPLACE_WITH_YOUR_EMAIL>`
-- 问题反馈：本仓库 Issues
+- 问题反馈：https://github.com/17339382527-code/manju-studio-connector/issues

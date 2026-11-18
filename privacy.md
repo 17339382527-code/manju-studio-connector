@@ -30,4 +30,6 @@
 
 ## 联系
 
-如需咨询或删除数据协助，请联系：`<REPLACE_WITH_YOUR_EMAIL>`
+如需咨询或删除数据协助，请通过本仓库的 Issues 页面联系：
+
+https://github.com/17339382527-code/manju-studio-connector/issues

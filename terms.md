@@ -36,4 +36,4 @@
 
 ## 8. 联系
 
-`<REPLACE_WITH_YOUR_EMAIL>`
+https://github.com/17339382527-code/manju-studio-connector/issues
